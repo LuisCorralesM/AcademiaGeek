@@ -1,0 +1,161 @@
+/* Estilos generales (Normalize) */
+
+html{
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+*:visited,
+*:link{
+    color: initial;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img{
+     max-width: 100%;
+     height: auto;
+     object-fit: cover;
+}
+
+h1,
+h2{
+    font-size: 1.3rem;
+    margin: inherit;
+    padding: 2px;
+    text-align: center;
+}
+
+/* header */
+
+header{
+    display: flex;
+    height: 85px;
+    width: 100%;
+    background-color: rgb(179, 179, 184);
+}
+
+.logo{
+    height: 85px;
+}
+
+.title{
+    height: 50px;
+    padding: 15px;
+    padding-left: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+/* links */
+
+.links{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.links li{
+    padding-right: 30px;
+}
+
+/* section */
+
+.people{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(202, 247, 250);
+}
+
+.company{
+    width: 100vw;
+    height: 100%;
+}
+
+p{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.link-people,
+.welcome-people{
+    font-weight: 700;
+    color: #08239c;
+    
+}
+
+.link-company,
+.welcome-company{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.welcome-people,
+.welcome-company{
+    margin: 0 100px;
+    padding: 20px 100px 30px 100px;
+    height: auto;    
+}
+
+/* login */
+.login,
+.login-adm{
+    height: auto;
+    padding: 10px 150px;
+    text-align: center;
+}
+
+.form,
+.form-adm{
+    display: grid;
+    grid-template-columns: 1;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px 0;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+}
+
+.username label{
+    padding: 0 13px;
+}
+
+.form-button{
+    text-align: center;
+}
+
+.display-login{
+    display: none;
+}
+
+
+
+/* table */
+.div-table{
+    width: 100%;
+    height: 100%;
+    padding: 50px 200px;
+}
+
+.content-table{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+
